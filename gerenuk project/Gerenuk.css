@@ -1,0 +1,44 @@
+/*
+* Riley Hickox
+* 12/6
+* Endangered Species Project-Gerenuk
+*/
+
+
+/* The universal selector */
+
+* {
+
+}
+
+/* Put body attributes here */
+
+body { 
+	width: 925px;			/*everything in body specifies details of the page*/
+	margin: auto;
+	font-family: "Arial", Helvetica Neue, Helvetica, sans-serif;
+	background-color:#ffcc99 ;
+	font-size: 14pt;
+
+}
+
+h1 {
+	text-align: center;
+	background-color:#d9d9d9 ; 
+	}
+	
+figure {
+	float: right;				/*image goes to right of page*/
+	border: 3px solid black;	/*creates a solid black line border around figure*/
+	margin: 20 px;				
+	padding-left: 20px;			/*specifies how much padding goes on left of the image*/
+	padding-right: 20px;		/*specifies how much padding goes on right of image*/
+}
+
+a:link, a:visited {	color: blue;		/*keeps link color blue when visited*/
+}
+
+a:hover, a:focus { color: red;			/*makes link color red when mouse is hovered over link*/
+				   font-size: 18pt;
+}
+						
